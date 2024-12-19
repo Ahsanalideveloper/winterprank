@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --white:#ffff;
+    --background:#14487f;
+    --black:#0000;
+}
+:focus,:active,:hover{
+    outline: 0 !important;
+    outline-offset: 0 !important;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Cabin", serif;
+    color: var(--background);
+}
+p{
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Cabin", serif;
+    color: var(--black);
+}
+body{
+    background-color: #fff;
+}
+button{
+    height: 4rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    font-family: "Cabin", serif;
+    font-weight: 800;
+    color: var(--white);
+    background-color: var(--background);
+    border: 1px solid var(--background);
+    transition: 0.5s;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--white);
+    border: 1px solid var(--background);
+    color: var(--background);
+}
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--background);
+}
+/* header */
+.bannar{
+    height: 120vh;
+    background-image: url(images/image-asset.jpeg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.navbar{
+    height: 8rem;
+    /* border: 1px solid white; */
+}
+.navbars{
+    list-style-type: none;
+    /* margin-right: 2rem; */
+    margin-top: 2rem;
+}
+.nav-links{
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: var(--white);
+    font-family: "Cabin", serif;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.nav-links:hover{
+    color: var(--background);
+    border-bottom: 2px solid var(--background);
+}
+.nav-items{
+    padding-top: 1rem;
+}
+.navbar-toggler:focus{
+   box-shadow: none !important;
+}
+.navbar-toggler:hover{
+    background-color: unset !important;
+}
+.navbar-toggler{
+    border: none !important;
+    display: none;
+    width: 4rem;
+}
+.navbar-toggler i{
+    color: white;
+}
+.navbar-brand{
+    margin-left: 2rem;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+}
+.nav-link{
+   font-size: 1rem;
+   font-weight: 600;
+   color: white;
+   line-height: 1.7rem;
+}
+.btun{
+    width:9rem;
+    margin: auto;
+    display: flex;
+    margin-top: 2rem;
+}
+
+/* banner css */
+.navtext{
+    height: 95vh;
+    width: 60vw;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+.navtext h2{
+    font-size: 2.5rem;
+    font-family: "Cabin", serif;
+    font-weight: 700;
+    color: var(--white);
+}
+.navtext i{
+    display: inline-block;
+    font-size: 2rem;
+    color: gold;
+    margin-top: 2rem;
+}
+.navtext h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: "Cabin", serif;
+    color: var(--white);
+    margin-top: 2rem;
+}
+
+
+/* about */
+/* .aboutimg{
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+    background-image: url(images/Winter+Park+Florida+Periodontist+Dr.jpg);
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 3px #14487f;
+} */
+.abouttext h1 ,.abouttext1 h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.abouttext p ,.abouttext1 p{
+    font-size: 1.3rem;
+    font-family: "Cabin", serif;
+    font-weight: 600;
+    color: black;
+}
+.abouttext ,.abouttext1{
+    line-height: 2rem;
+    position: relative;
+    
+}
+.abouttext h2,.abouttext1 h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.abouttext button ,.abouttext1 button{
+    margin-top: 2rem;
+}
+.abouttext1{
+    margin-top: 8rem;
+}
+.aboutimg1{
+    margin-top: 9rem;
+}
+
+/* cards */
+.cards{
+    background-color: var(--background);
+    margin-top: 4rem;
+}
+.cards h1{
+     font-size: 3rem;
+     font-weight: 700;
+     color: var(--white);
+     text-align: center;
+     padding-top: 4rem;
+}
+.card{
+    background-color: var(--background);
+    border: 0px !important;
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    height: 20rem;
+}
+.card-body i{
+    font-size: 2rem;
+    color: gold;
+    margin-top: 2rem;
+}
+.card-body p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-top: 2rem;
+}
+.card-body a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.btun1{
+    width: 10rem;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.btun1 button{
+    height: 4rem;
+    width: 10rem;
+    background-color: white;
+    color: var(--background);
+   font-size: 1rem;
+   font-weight: 600;
+   font-family: Arial, Helvetica, sans-serif;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.btun1 button:hover{
+    background-color: transparent;
+    border-color: var(--white);
+    color: var(--white);
+}
+
+
+/* problem css */
+.problem{
+    background-color: #d2e8ef;
+}
+.problem h2{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+   padding-top: 3rem;
+}
+.problem h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+    margin-top: 3rem;
+}
+.col button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* footer */
+.footertext h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.footertext p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    line-height: 2.2rem;
+    margin-top: 2rem;
+}
+.footerform h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black; 
+}
+.footerform label{
+    font-size: 1rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+.footerform input{
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid #d2e8ef;
+    border-radius: 9rem;
+    margin-top: 1rem;
+    background-color: #d2e8ef;
+    padding-left: 2rem;
+}
+.footerform textarea{
+    border: 1px solid #d2e8ef;
+    border-radius:9rem;
+    background-color: #d2e8ef;
+    margin-top: 1rem;
+}
+.footerdirection h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.footerdirection iframe{
+    height: 35vh;
+    width: 20vw;
+}
+
+
+@media(max-width:1024px){
+    .footerform input{
+        height: 5vh;
+        width: 30vw;
+    }
+    .footerdirection iframe{
+        width: 30vw;
+    }
+}
+@media(max-width:992px){
+   .navbar-toggler{
+    display: block;
+   } 
+   .nav-items{
+    display: none;
+   }  
+   .navbars button{
+    display: none;
+   }
+   .aboutimg img,.aboutimg1 img{
+    width: 100%;
+   }
+   .footerform input{
+    width: 100%;
+   }
+  .footerdirection iframe{
+    width: 100%;
+    height: 30rem;
+  }
+}
+@media(max-width:576px){
+    .navtext{
+        margin-left: 5rem;
+    }
+     .abouttext h1, .abouttext1 h1{
+        font-size: 2.5rem;
+    }
+    .footerdirection h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 14rem;
+    }
+}
+@media(max-width:425px){
+    .navtext h2{
+        font-size:2rem;
+    }
+    .navtext h1{
+        font-size: 3.5rem;
+    }
+}
